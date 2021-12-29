@@ -6,12 +6,22 @@
     background-color: #161D15
 }
 
+
 .content {
-    background-color: #062E03
+    background-color: #062E03;
+    width: 330px !important;
+}
+
+.content,
+.headshot--box {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .headshot--box {
     background-image: url("https://www.sciencehistory.org/sites/default/files/rte/chrisgregsonheadshot_330.jpg");
     height: 330px;
     width: 330px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
