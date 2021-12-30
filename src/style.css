@@ -21,6 +21,11 @@
   border-top-right-radius: 25px;
 }
 
+.footer, .content {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
 .headshot--box {
   background-image: url("https://www.sciencehistory.org/sites/default/files/rte/chrisgregsonheadshot_330.jpg");
   height: 330px;
@@ -53,8 +58,19 @@
   color: #374151 !important;
 }
 
+.email--btn:hover {
+  background-color: #d6d6d6 !important;
+  border-color: white !important;
+  color: #374151 !important;
+}
+
 .linkedin--btn {
   background-color: #5093E2 !important;
+  border-color: #5093E2 !important;
+}
+
+.linkedin--btn:hover {
+  background-color: #437dc0 !important;
   border-color: #5093E2 !important;
 }
 
@@ -67,5 +83,19 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
+}
+
+.footer {
+  background-color: #4a6146;
+}
+
+.footer--btn {
+  font-size: 30px !important;
+  color: #dbdada !important;
+}
+
+.footer--btn:hover {
+  font-size: 30px !important;
+  color: #a0a0a0 !important;
 }
 /*# sourceMappingURL=style.css.map */

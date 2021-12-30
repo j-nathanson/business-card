@@ -21,6 +21,14 @@ function App() {
         <div className="row">
           <TextSection />
         </div>
+        <div className="row footer justify-content-center">
+          <footer>
+            <a href="" className="btn footer--btn"><i class="fa fa-twitter-square" ></i></a>
+            <a href="" className="btn footer--btn"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="" className="btn footer--btn">
+              <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="" className="btn footer--btn"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          </footer></div>
       </div>
     </div>
   );
