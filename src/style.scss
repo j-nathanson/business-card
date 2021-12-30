@@ -56,10 +56,23 @@
     border-color: white !important;
     color: #374151 !important;
 
-   
+
 }
 
 .linkedin--btn {
     background-color: #5093E2 !important;
     border-color: #5093E2 !important;
+}
+
+// TextSection
+
+.text--header {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text--para{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
 }

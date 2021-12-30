@@ -3,6 +3,7 @@ import { Col } from 'reactstrap';
 import Headshot from './components/Headshot';
 import Header from './components/Header';
 import ButtonBox from './components/ButtonBox';
+import TextSection from './components/TextSection';
 
 function App() {
   return (
@@ -14,13 +15,12 @@ function App() {
         <div className="row justify-content-center text-center">
           <Header />
         </div>
-        <div className="row ">
+        <div className="row mb-3">
           <ButtonBox />
         </div>
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla officia error, suscipit animi atque explicabo vel vitae? Earum, reprehenderit numquam error optio aspernatur repellat impedit!</p>
-        <h2>Interests</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla officia error, suscipit animi atque explicabo vel vitae? Earum, reprehenderit numquam error optio aspernatur repellat impedit!</p>
+        <div className="row">
+          <TextSection />
+        </div>
       </div>
     </div>
   );

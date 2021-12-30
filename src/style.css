@@ -53,17 +53,19 @@
   color: #374151 !important;
 }
 
-.email--btn:hover {
-  background-color: whitesmoke !important;
-}
-
 .linkedin--btn {
   background-color: #5093E2 !important;
   border-color: #5093E2 !important;
 }
 
-.linkedin--btn:hover {
-  background-color: #3b89e2 !important;
+.text--header {
+  font-weight: 700;
+  font-size: 18px;
 }
 
+.text--para {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+}
 /*# sourceMappingURL=style.css.map */
