@@ -1,5 +1,4 @@
 import './style.css';
-import { Col } from 'reactstrap';
 import Headshot from './components/Headshot';
 import Header from './components/Header';
 import ButtonBox from './components/ButtonBox';
@@ -23,11 +22,11 @@ function App() {
         </div>
         <div className="row footer justify-content-center">
           <footer>
-            <a href="" className="btn footer--btn"><i class="fa fa-twitter-square" ></i></a>
-            <a href="" className="btn footer--btn"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="" className="btn footer--btn">
+            <a href="#" className="btn footer--btn"><i class="fa fa-twitter-square" ></i></a>
+            <a href="#" className="btn footer--btn"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="#" className="btn footer--btn">
               <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="" className="btn footer--btn"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+            <a href="#" className="btn footer--btn"><i class="fa fa-github-square" aria-hidden="true"></i></a>
           </footer></div>
       </div>
     </div>
