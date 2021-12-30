@@ -1,3 +1,7 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
 .container-fluid {
   color: white;
 }
@@ -23,5 +27,43 @@
   width: 330px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  margin-bottom: 21px;
 }
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.job {
+  color: #f3bf99;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.website {
+  font-weight: 400;
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+.email--btn {
+  background-color: white !important;
+  border-color: white !important;
+  color: #374151 !important;
+}
+
+.email--btn:hover {
+  background-color: whitesmoke !important;
+}
+
+.linkedin--btn {
+  background-color: #5093E2 !important;
+  border-color: #5093E2 !important;
+}
+
+.linkedin--btn:hover {
+  background-color: #3b89e2 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
